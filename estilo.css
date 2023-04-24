@@ -1,0 +1,628 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Martian+Mono:wght@100&family=Mukta:wght@200;300&family=Noto+Sans&family=Nunito+Sans:wght@300&family=Open+Sans:wght@300;400&family=Pacifico&family=Poppins:ital,wght@0,100;0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{ 
+    background-color: #f3f3f4;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0px;
+    text-align: center;
+    background-color: #fefeff;
+}
+nav a{
+    margin-left: 15px;
+}
+.login{
+    margin-right: 25px;
+}
+header h2{
+    color: #2392a6;
+    cursor: pointer;
+}
+nav a:hover{
+    border-bottom: 1px solid #2392a6; 
+    padding-bottom: 2px;
+}
+.register a{
+    color: #2392a6;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 30px;
+}
+.register a:hover{
+    transition: .5s;
+    background-color: #2392a6;
+    color: white;
+}
+
+
+
+
+                                  /* HERO  */
+.hero img{
+    position: absolute;
+    right: 5%;
+    
+    z-index: -1;
+    border-style: none;
+    border-radius: 20px;
+    width: 90%;
+    height: 85%;
+    filter: brightness(60%);
+    background-position: center;
+    margin-top: 1%;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    color: white;
+} 
+.titulo h1{
+    margin-top: 9%;
+    font-size: 65px;
+}
+.titulo p{
+    font-size: 20px;
+    margin-top: 2%;
+}
+.tarjetitashero{
+    margin-left: 10%;
+    display: flex;
+    margin-top: 1%;
+    font-size: 17px;
+}
+.one, .round, .multi{
+    padding: 20px 0px;
+    width: 10%;
+    text-align: center;
+    background-color: #2392a6; 
+    border-style: none;
+    border-radius: 20px 20px 0px 0px;
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(1px);
+    color: #4B4B4B;
+    cursor: pointer;
+}
+.tarjetitashero p:hover{
+    transition: .5s;
+    background-color: #fec107;
+}
+form{
+    display: flex;
+    margin-left: 10%;
+    padding: 50px 0px;
+    background-color: white;
+    width: 65%;
+    border-style: none;
+    border-radius: 0px 15px 15px 15px;
+}
+.primerfrom, .segundoto, .tercerdate{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;  
+    margin-left: 5% ; 
+}
+form label{
+    margin-bottom: 10px;
+}
+form select{
+    padding: 10px 50px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #c7cccd;
+}
+.tercerdate input{
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 1px solid #c7cccd;
+    outline: none;
+    cursor: pointer;
+}
+form button{
+    margin-left: 9%;
+    margin-top: 3%;
+    width: 15%;
+    height: 43px;
+    border-style: none;
+    background-color: #2392a6;
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+                                  /* DESTINOS */
+/* TITULO */
+.explore{
+    display: flex;
+    margin-top: 7%;
+    margin-left: 5%;
+    font-size: 24px;
+}
+.explore i{
+    padding: 5px 5px;
+    width: 29px;
+    background-color: #2392a6;
+    margin-right: 2%;
+    margin-top: 1%;
+    border-style: none;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+.explore .bi.bi-chevron-left{
+    margin-left: 59%;
+}
+.explore i:hover{
+    transition: .5s;
+    background-color: white;
+    color: #2392a6;
+}
+.solap{
+    margin-left: 5%;
+    margin-top: 1%;
+    color: #747c7a;
+}
+/* TARJETAS CON IMAGENES */
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+.cards img{
+    width: 300px;
+    height: 400px;
+    border-style: none;
+    border-radius: 8px;
+}
+.tarjeta{
+    padding: 10px;
+    border: 1px solid #c7cccd;
+    background-color: white;
+    border-radius: 10px;
+}
+.person{
+    display: flex;
+}
+.person p{
+    color: #82847c;
+}
+.person b{
+    color: black;
+}
+.person button{
+    font-weight: 700;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #2392a6;
+    color: white;
+    margin-left: 36%;
+    cursor: pointer;
+}
+.person button:hover{
+    transition: .5s;
+    background-color: #f3f3f4;
+    color: #2392a6;
+
+}
+.tarjeta p{
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+.bi.bi-geo-alt-fill{
+    color: #7a4dff;
+}
+.bolitas{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.bolitas i{
+    margin-right: 7px;
+    color: #f0f0f1;
+    cursor: pointer;
+}
+.bolitas i:hover{
+    transition: .5s;
+    color: #2392a6;
+}
+
+                                  /* VENTAJAS */
+.what{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.what p{
+    color: #fec107;
+}
+.what h2{
+    font-size: 30px;
+}
+.cam{
+    position: absolute;
+    right: 5%;
+    z-index: 1;
+    width: 650px;
+    height: 600px;
+    border-style: none;
+    background-color: white;
+    padding: 15px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: white;
+   
+}
+.img1{
+    position: absolute;
+    right: 32.5%;
+    z-index: 1;
+    width: 200px;
+    height: 230px;
+    margin-top: 34%;
+    padding: 10px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: white;
+}
+.img2{
+    position: absolute;
+    right: 19.5%;
+    z-index: 1;
+    width: 200px;
+    height: 249px;
+    margin-top: 34%;
+    border-style: none;
+    border-radius: 15px;
+}
+.img3{
+    position: absolute;
+    right: 6.5%;
+    z-index: 1;
+    width: 200px;
+    height: 249px;
+    margin-top: 34%;
+    border-style: none;
+    border-radius: 20px;
+}
+.numero1, .numero2, .numero3{
+    padding: 5px 15px;
+    width: 26px;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 3%;
+}
+.numero1{
+    background-color: #7a4dff;
+}
+.morado, .celeste, .amarillo{
+    margin-left: 5%;
+}
+.morado h2, .celeste h2, .amarillo h2{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.numero2{
+    background-color: #2392a6;
+}
+.numero3{
+    background-color: #fec107;
+}
+.get{
+    margin-left: 5%;
+    margin-top: 3%;
+    padding: 15px 0px;
+    width: 9%;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #2392a6;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.get:hover{
+    transition: .5s;
+    color: #2392a6;
+    background-color: white;
+}
+
+                                  /* VACACIONES*/
+.vacaciones{
+    margin-top: 10%;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 12%;
+}
+.vacaciones img{
+    width: 350px;
+    height: 490px;
+    margin-left: 5%;
+    border-style: none;
+    border-radius: 10px;
+    border-radius: 15px;
+}
+.vaca2{
+    position: absolute;
+    left: 15%;
+    z-index: 1;
+    margin-top: 9%;
+    border: 1px solid black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.conjunto{
+    display: flex;
+}
+.make{
+    margin-left: 35%;
+}
+.make h2{
+    font-size: 36px;
+    margin-bottom: 4%;
+}
+.make button{
+    margin-top: 6%;
+    padding: 15px 0px;
+    width: 20%;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #2392a6;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.make button:hover{
+    transition: .5s;
+    background-color: #f3f3f4;
+    color: #2392a6;
+}
+.trav{
+    display: flex;
+    justify-content: space-between ;
+}
+p.uno{
+    margin-top: 65%;
+    font-size: 40px;
+    color: #2392a6;
+    margin-bottom: 13%;
+    font-weight: 600;
+}
+.diez{
+    margin-top: 2%;
+}
+
+                                  /* DESTINOS*/
+.see{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 24px;
+}
+.see i{
+    padding: 5px 5px;
+    width: 29px;
+    background-color: #2392a6;
+    margin-right: 2%;
+    margin-top: 1%;
+    border-style: none;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+.see .bi.bi-chevron-left{
+    margin-left: 54%;
+}
+.see i:hover{
+    transition: .5s;
+    background-color: white;
+    color: #2392a6;
+}
+.amazin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.abierto, .cerrado{
+    width: 50px;
+    height: 50px;
+}
+.abierto{
+    position: absolute;
+    right: 46%;
+    z-index: 1;
+    margin-bottom: 14%;
+}
+.cerrado{
+    position: absolute;
+    right: 10%;
+    z-index: 1;
+    margin-top: 1%;
+}
+                                
+.had{
+    font-size: 20px;
+}
+.thomas{
+    margin-top: 10%;
+}
+.angeles{
+    font-size: 15px;
+    color: #747c7a;
+    margin-left: 12.3%;
+}
+.nose{
+    height: 3px;
+    width: 50px;
+    background-color: #fec107;
+    margin-right: 3%;
+}
+.decoracion{
+    display: flex;
+    align-items: center;
+}
+                                /* ACCESS */
+.access{
+    background-color: white;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 8%;
+    font-size: 24px;
+}
+.imgsub{
+    position: absolute;
+    left: 36%;
+    z-index: 1;
+    width: 60%;
+}
+.Subscribe h3{
+    margin-top: 20%;
+    font-size: 30px;
+}
+.Subscribe p{
+    font-size: 15px;
+    color: #747c7a;
+}
+.im{
+    margin-top: 1%;
+    padding: 15px 11px;
+    width: 350px;
+    border: 1px solid #2392a6;
+    border-radius: 5px;
+    outline: none;
+
+}
+.button2{
+    padding: 8px 0px;
+    width: 6%;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #2392a6;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    left: 350px;
+    outline: none;
+    margin-top: 1.4%;
+    font-weight: 600;
+}
+.button2:hover{
+    transition: .5s;
+    background-color: #f3f3f4;
+    color: #2392a6;
+}
+
+                                /* YOURSELF */
+.yourself{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #00bf8f; 
+    background: -webkit-linear-gradient(to right, #001510, #00bf8f);  
+    background: linear-gradient(to right, #001510, #00bf8f); 
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    text-align: center;
+    border-width: none;
+    border-radius: 10px;
+    color: white;
+    padding-bottom: 3%;
+}
+.yourself h2{
+    margin-top: 2%;
+    font-size: 25px;
+}
+.yourself p{
+    margin-top: 1%;
+}
+.yourself button{
+    margin-top: 2%;
+    padding: 15px 0px;
+    width: 9%;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: #fec107;
+    cursor: pointer;
+}
+.yourself button:hover{
+    transition: .5s;
+    background-color: white;
+    color: #fec107;
+}   
+
+                            /*FOOTER  */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    background-color: white;
+    padding-bottom: 2%;
+    align-items: center;
+}
+.footer h2{
+    font-size: 38px;
+}
+.footer p{
+    margin-top: 7%;
+    cursor: pointer;
+    color: #747c7a;
+}
+.footer b{
+    color: black;
+}
+.footer i{
+    color: #2392a6;
+    margin-right: 4%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.book{
+    margin-bottom: 5%;
+}
+.arriba{
+    height: 3px;
+    width: 90%;
+    background-color: #747c7a;
+    margin-left: 5%;
+}
+h4{
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #82847c;
+}
