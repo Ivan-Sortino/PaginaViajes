@@ -242,14 +242,50 @@ form button{
 }
 .bolitas i{
     margin-right: 7px;
-    color: #f0f0f1;
+    color: white;
     cursor: pointer;
 }
 .bolitas i:hover{
     transition: .5s;
     color: #2392a6;
 }
-
+.estrella1{
+    position: absolute;
+    right: 71%;
+    padding: 10px 0px;
+    width: 5%;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
+}
+.estrella1 i, .estrella2 i, .estrella3 i{
+    color: #fec107;
+    margin-right: 10%;
+}
+.estrella2{
+    position: absolute;
+    right: 41%;
+    padding: 10px 0px;
+    width: 5%;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
+}
+.estrella3{
+    position: absolute;
+    right: 11%;
+    padding: 10px 0px;
+    width: 5%;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
+}
                                   /* VENTAJAS */
 .what{
     margin-top: 5%;
